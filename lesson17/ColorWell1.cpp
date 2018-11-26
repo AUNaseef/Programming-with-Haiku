@@ -59,7 +59,7 @@ void ColorWell::SetValue(const uint8 &r,const uint8 &g, const uint8 &b)
 	Draw(Bounds());
 }
 
-void SetStyle(const int32 &style);
+void ColorWell::SetStyle(const int32 &style)
 {
 	if (style != fStyle) {
 		fStyle = style;

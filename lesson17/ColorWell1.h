@@ -23,7 +23,9 @@ public:
 	virtual void SetStyle(const int32 &style);
 	int32 Style(void) const;
 	virtual void Draw(BRect update);
-	private: void DrawRound(void);
+	
+private:
+	void DrawRound(void);
 	void DrawSquare(void);
 	rgb_color fDisabledColor, fColor;
 	int32 fStyle;
