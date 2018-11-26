@@ -27,7 +27,7 @@ MainWindow::MainWindow(void)
 
 	background->SetViewColor(ui_color(B_PANEL_BACKGROUND_COLOR));
 	AddChild(background);
-	fColorWell = new ColorWell(BRect(15, 15, 165, 165),"color well",
+	fColorWell = new ColorWell(BRect(15, 15, 165, 165),"color well",
 							   new BMessage(M_COLOR_UPDATED));
 	
 	background->AddChild(fColorWell);
